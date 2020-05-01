@@ -24,7 +24,7 @@ spec:
       - name: main-script
         path: /app/main_script.py
         raw:
-          data:
+          data: |
             from zquantum.qcbm.ansatz import generate_random_initial_params
             from zquantum.core.circuit import save_circuit_template_params
 
