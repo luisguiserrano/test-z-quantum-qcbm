@@ -1,3 +1,6 @@
+import numpy as np
+from zquantum.core.circuit import Circuit, Qubit, Gate
+
 def get_single_qubit_layer(n_qubits, params, single_qubit_gate):
     """Builds a layer of single-qubit gates acting on all qubits in a quantum circuit.
 
